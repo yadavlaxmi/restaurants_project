@@ -1,8 +1,14 @@
 import React from 'react'
-
+import { AppBar,Box,Typography } from '@mui/material'
 const Header = () => {
   return (
-    <div><h1> Header</h1></div>
+    <>
+    <Box>
+        <AppBar>
+            <Typography>My Restaurant</Typography>
+        </AppBar>
+    </Box>
+    </>
   )
 }
 
