@@ -2,6 +2,7 @@ import React from 'react'
 import { AppBar,Box,Toolbar,Typography } from '@mui/material'
 import FastfoodTwoToneIcon from '@mui/icons-material/FastfoodTwoTone';
 import {Link} from '@mui/material';
+import "../../src/Styles/HeaderStyle.css";
 const Header = () => {
   return (
     <>
@@ -13,8 +14,8 @@ const Header = () => {
                 My Restaurant
                 </Typography>
         
-            <Box>
-                <ul>
+            <Box sx={{display:{xs:"none",sm:"block"}}}>
+                <ul className='navigationpage'>
                     <li>
                         <Link to={"/"}>Home</Link>
                     </li>
