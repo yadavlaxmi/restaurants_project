@@ -15,7 +15,7 @@ const Header = () => {
                 </Typography>
         
             <Box sx={{display:{xs:"none",sm:"block"}}}>
-                <ul className='navigationpage'>
+                <ul className='navigation-menu'>
                     <li>
                         <Link to={"/"}>Home</Link>
                     </li>
