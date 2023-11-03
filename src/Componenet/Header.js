@@ -36,7 +36,7 @@ const Header = () => {
             <Link to="/menu">Menu</Link>
           </li>
         </ul>
-        {/* </Box> */}
+    
       </Box>
     );
   };
@@ -82,7 +82,10 @@ const Header = () => {
             variant="temporary"
             open={mobileOpen}
             onClose={handleDrawerToggle}
-            sx={{ display: { xs: 'none', sm: 'block' } }}
+            sx={{ display: { xs: 'none', sm: 'block' },"&,MuiDrawer-papaer":{
+                boxSizing:"border-box",
+                width:"240px"
+            } }}
           >
             <MobileDrawer />
           </Drawer>
