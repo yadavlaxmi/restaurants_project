@@ -1,4 +1,4 @@
-import Layout from "./Componenet/Layout";
+// import Layout from "./Components/Layout";
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Home from "./Page/Home";
 import Contact from "./Page/Contact";
